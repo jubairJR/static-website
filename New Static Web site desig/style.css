@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+body{
+    width: 960px;
+    margin: 0 auto;
+    background-image: url(image/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* ----head area---- */
+
+.Header_part{
+    background-color: rgb(223, 55, 192);
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+}
+.Header_part h1{
+    text-align: center;
+    padding: 0px;
+    text-transform: uppercase;
+}
+.Header_part strong{
+text-align: center;
+display: block; 
+font-weight: lighter; 
+font-size: 17px; 
+}
+
+/* ----manu_part---- */
+
+.manu_part{
+background-color: rgb(223, 55, 192);
+margin-top: 10px;
+}
+.manu_part li{
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+}
+.manu_part ul li a{
+    color: white;
+    padding: 15px;
+}
+.manu_part ul li a:hover{
+    color: rgb(94, 255, 0);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+/* ----Question and answer section---- */
+
+.QA_01{
+    color: rgb(255, 255, 255);
+    padding: 20px 0px 0px 20px;
+    text-align: center;
+}
+.QA_01 a{
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Roboto&display=swap');
+    color: yellow;
+    text-align: right;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 1px;
+}
+.QA_02{
+    color: rgb(255, 255, 255);
+    padding: 20px 0px 0px 20px;
+    text-align: center;
+}
+.QA_02 a{
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Roboto&display=swap');
+    color: yellow;
+    text-align: right;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 1px;
+}
+.QA_03{
+    color: rgb(255, 255, 255);
+    padding: 20px 0px 0px 20px;
+    text-align: center;
+}
+.QA_03 a{
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Roboto&display=swap');
+    color: yellow;
+    text-align: right;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 1px;
+}
+.QA_04{
+    color: rgb(255, 255, 255);
+    padding: 20px 0px 0px 20px;
+    text-align: center;
+}
+.QA_04 a{
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Roboto&display=swap');
+    color: yellow;
+    text-align: right;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 1px;
+}
+.QA_05{
+    color: rgb(255, 255, 255);
+    padding: 20px 0px 0px 20px;
+    text-align: center;
+}
+.QA_05 a{
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Roboto&display=swap');
+    color: yellow;
+    text-align: right;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 1px;
+}
+
+
+/* ----footer section---- */
+    /* first line css */
+
+footer{
+    padding: 10px;
+    background-color: rgb(223, 55, 192);
+}
+.footer_info{
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.footer_info ul li{
+    padding: 30px;
+    list-style: none;
+    display: inline;
+}
+.footer_info ul li a{
+    color: white;
+}
+.footer_info ul li a:hover{
+    color: rgb(94, 255, 0);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+/* second line css */
+
+.footer_last_line{
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.footer_last_line ul li{
+    padding: 30px;
+    list-style: none;
+    display: inline;
+}
+.footer_last_line ul li a{
+    color: white;
+}
+.footer_last_line ul li a:hover{
+    color: rgb(94, 255, 0);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 10px;
+}
